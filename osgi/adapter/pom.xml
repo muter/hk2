@@ -48,6 +48,7 @@
         <version>2.4.0</version>
     </parent>
     <artifactId>osgi-adapter</artifactId>
+    <version>2.4.0-fk1</version>
     
     <name>HK2 OSGi Adapter</name>
 
@@ -72,6 +73,7 @@
             <plugin>
                 <groupId>org.glassfish.hk2</groupId>
                 <artifactId>osgiversion-maven-plugin</artifactId>
+		<version>2.4.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.felix</groupId>
@@ -103,6 +105,7 @@
         <dependency>
             <groupId>org.glassfish.hk2</groupId>
             <artifactId>hk2-core</artifactId>
+	    <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>

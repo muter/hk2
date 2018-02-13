@@ -550,17 +550,17 @@
                 <plugin>
                     <groupId>org.glassfish.hk2</groupId>
                     <artifactId>config-generator</artifactId>
-                    <version>${project.version}</version>
+                    <version>2.4.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.glassfish.hk2</groupId>
                     <artifactId>hk2-inhabitant-generator</artifactId>
-                    <version>${project.version}</version>
+                    <version>2.4.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.glassfish.hk2</groupId>
                     <artifactId>hk2-metadata-generator</artifactId>
-                    <version>${project.version}</version>
+                    <version>2.4.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -575,7 +575,7 @@
                 <plugin>
                     <groupId>org.glassfish.hk2</groupId>
                     <artifactId>osgiversion-maven-plugin</artifactId>
-                    <version>${project.version}</version>
+                    <version>2.4.0</version>
                     <executions>
                         <execution>
                             <id>compute-osgi-version</id>
